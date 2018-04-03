@@ -1,0 +1,47 @@
+.ComponentCenter{
+	background: #fff;
+	.headBox{
+		width: 100%;
+		height: 242px;
+		background: #28cfbd;
+		.main{
+			width: 865px;
+			height: 242px;
+			margin: 0 auto;
+			.leftBox{
+				width: 520px;
+				height: 242px;
+				.titles{
+					font-size: 22px;
+					color: #fff;
+					margin: 70px auto 30px auto;
+					text-align: center;
+				}
+				.content{
+					font-size: 14px;
+					color: #fff;
+					text-align: center;
+	    			line-height: 20px;
+				}
+			}
+			.right{
+				width: 241px;
+				height: 241px;
+			}
+		}
+	}
+
+	.flexNav{
+		width: 100%;
+		.tabs{
+			width: 25%;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+		}
+	}
+
+	.contentBox{
+		padding-bottom: 50px;
+	}
+}

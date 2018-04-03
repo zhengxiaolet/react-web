@@ -1,0 +1,20 @@
+.flexNav{
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  .tabs{
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+  }
+  .pitchOn{
+    border-bottom: 4px solid #28cfbd;
+  }
+}
+.flexStyle{
+  display: flex;
+  top:0;
+  background-color: #a274be;
+}

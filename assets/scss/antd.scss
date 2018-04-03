@@ -1,0 +1,38 @@
+.ant-anchor{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ant-anchor-link{
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    &:hover{
+        border-bottom: 4px solid #28cfbd;
+    }
+}
+.ant-anchor-link-title{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    &:hover{
+        color: #333;
+    }
+}
+.ant-anchor-link-active{
+    border-bottom: 4px solid #28cfdb;
+    color: #333;
+}
+.ant-anchor-ink{
+    display: none;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+.ant-anchor-wrapper{
+    border-bottom: 1px solid #e5e5e5;
+}

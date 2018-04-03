@@ -1,0 +1,298 @@
+.clearFix{
+  zoom: 1;
+}
+.clearFix:after{
+  content:"";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.wrap{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  .bannerWrap{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url("../../../assets/images/banner_bg.jpg") center no-repeat;
+    .banner{
+      width: 1200px;
+      margin: 0 auto;
+      min-height: 560px;
+      background: url("../../../assets/images/banner_con.png")right center no-repeat;
+      .bannerFont{
+        padding: 190px 0 0 190px;
+        h2{
+          font-size: 36px;
+          color: #26ecb2;
+          font-family: "Microsoft YaHei";
+          padding-bottom: 35px;
+        }
+        p{
+          color: #fff;
+          padding-bottom: 80px;
+        }
+        span{
+          display: inline-block;
+          width: 170px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          background: #28cf9e;
+          border-radius: 50px;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .contentWrap{
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    left: 0;
+    z-index: 1;
+    .generalize {
+      width: 1200px;
+      height: 530px;
+      margin: 0 auto;
+      h3 {
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+      }
+      .zcrz,.bxcp,.tgf {
+        display: inline-block;
+        padding-top: 185px;
+        p {
+          font-size: 16px;
+          width: 100%;
+          text-align: center;
+          padding: 0;
+          line-height: 35px;
+          color: #fff;
+        }
+        span {
+          font-size: 14px;
+          color: #fff;
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .zcrz {
+        display: inline-block;
+        width: 216px;
+        height: 185px;
+        background: url("../../../assets/images/zcrz.png") center 65% no-repeat;
+        margin-left: 220px;
+        p{
+          text-align: left;
+          padding-left: 5px;
+        }
+        span{
+          text-align: left;
+          margin-left: -18px;
+        }
+      }
+      .bxcp {
+        display: inline-block;
+        width: 334px;
+        height: 185px;
+        background: url("../../../assets/images/bxcp.png") center 16% no-repeat;
+      }
+      .tgf {
+        display: inline-block;
+        width: 200px;
+        height: 185px;
+        background: url("../../../assets/images/tgf.png") center 49% no-repeat;
+        p{
+          text-align: right;
+        }
+        span{
+          text-align: right;
+          display: inline-block;
+          margin-left: 40px;
+        }
+      }
+      .moreJoin{
+        width: 100%;
+        height: 140px;
+        line-height: 140px;
+        display: block;
+        padding: 0;
+        text-align: center;
+        a{
+          display: inline-block;
+          width: 170px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid #28cf9e;
+          color: #28cf9e;
+          border-radius: 20px;
+        }
+        a:hover{
+          background: #28cf9e;
+          color: #fff;
+        }
+        .more{
+          margin-right: 120px;
+        }
+      }
+    }
+    .advantageWrap{
+      width: 1200px;
+      margin: 0 auto;
+      h3{
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+      }
+    .advantage{
+      height: 390px;
+    }
+      .science,.product,.service{
+        float: left;
+        width: 400px;
+        height: 390px;
+        background: rgba(52, 13, 103, 57);
+        text-align: center;
+        img{
+          padding: 50px 0;
+        }
+        .fontTitle{
+          color: #fff;
+          font-size: 20px;
+          line-height: 90px;
+          span{
+            color:#28cf9e;
+          }
+        }
+        .fontCon{
+          color: #fff;
+          width: 300px;
+          margin: 0 auto;
+
+        }
+      }
+      /*
+      .science:hover,.product:hover,.service:hover{
+        background: rgba(52, 13, 103, 0);
+      }
+      */
+      .product{
+        background: rgba(52, 13, 103, 0.3);
+      }
+    }
+    .dockingWrap{
+      width: 1200px;
+      margin: 0 auto;
+      h3 {
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+      }
+      .docking{
+        height: 368px;
+        .dockingCon,.dockingCurrent{
+          float: left;
+          width: 284px;
+          height: 366px;
+          border:1px solid #1c6d7a;
+          margin-right: 20px;
+          text-align: center;
+          background: rgba(50,10,103,0.5);
+          h4{
+            width: 100%;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            background: url("../../../assets/images/dockingConBj.jpg") center no-repeat;
+          }
+          .img{
+            padding: 22px 0;
+          }
+          .pCon{
+            font-size: 16px;
+            color: #fff;
+            line-height: 35px;
+          }
+          .aHref{
+            display: inline-block;
+            width: 170px;
+            line-height: 36px;
+            border: 2px solid #1dded3;
+            border-radius: 20px;
+            color: #1dded3;
+            margin-top: 35px;
+            font-size: 14px;
+          }
+          .aHref:hover{
+            background: #1dded3;
+            color: #fff;
+
+          }
+        }
+        .dockingCon:hover,.dockingCurrent:hover {
+          box-shadow: 0 0 30px -5px #1cded3;
+        }
+        .dockingCurrent{
+          margin-right: 0;
+        }
+      }
+    }
+    .jionOurWrap{
+      width: 100%;
+      height: 286px;
+      margin-top: 90px;
+      background: url("../../../assets/images/jionOur.jpg") center no-repeat;
+      margin-bottom: 90px;
+      .jionOur {
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        height: 286px;
+        .jionOurArr {
+          display: inline-block;
+          width: 200px;
+          height: 45px;
+          line-height: 45px;
+          border-radius: 30px;
+          text-align: center;
+          background: #28cf9e;
+          color: #fff;
+          margin: 165px auto 0;
+          cursor: pointer;
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 6px;
+            margin: 0 0 2px 3px;
+            font-size: 14px;
+            background: url("../../../assets/images/jionArr.png") 65% center no-repeat;
+          }
+        }
+        .jionOurArr:hover{
+          border: 1px solid #28cf9e;
+          background: rgba(0,0,0,0);
+          box-shadow: inset 0 0 20px rgba(40, 207, 158, 0.5), 0 0 20px rgba(40, 207, 158, 0.2);
+          outline-color: rgba(255, 255, 255, 0);
+          outline-offset: 15px;
+          text-shadow: 1px 1px 2px #28cf9e;
+
+        }
+      }
+    }
+  }
+}

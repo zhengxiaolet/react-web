@@ -1,0 +1,163 @@
+@import "variables.scss";
+@import "global.scss";
+@import "scroll.scss";
+@import "table.scss";
+@import "login.scss";
+@import "icons.scss";
+@import "button.scss";
+@import "modal.scss";
+@import "menu.scss";
+@import "banner.scss";
+@import "card.scss";
+@import "img.scss";
+@import "utils-text.scss";
+@import "utils-color.scss";
+@import "utils-size.scss";
+@import "utils-border.scss";
+@import "utils-spacing.scss";
+#app{
+  height: 100%;
+}
+.ant-layout{
+  height: 100%;
+  .ant-layout-sider-collapsed{
+    .anticon{
+      font-size: 16px;
+      margin-left: 8px;
+    }
+    .nav-text{
+      display: none;
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:after{
+      display: none;
+    }
+    .ant-menu-dark:not(.ant-menu-inline) .ant-menu-submenu-open {
+      color: inherit;
+    }
+  }
+  p {
+    margin: 10px 0 10px 0;
+  }
+}
+
+.logo{
+  height: 32px;
+  background: #fff;
+  border-radius: 6px;
+  margin: 16px;
+  text-align: center;
+}
+
+.gutter-example{
+  .ant-row{
+    //margin-left: 0 !important;
+    //margin-right: 0 !important;
+    >div{
+      background: transparent;
+      border: 0;
+    }
+  }
+}
+.gutter-box {
+  padding: 5px 0;
+}
+
+:global {
+  .ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title{
+    font-size: 12px !important;
+  }
+  .ant-card-head-title {
+    font-size: 14px !important;
+  }
+}
+.notice{
+  text-indent: 2em;
+  color: red;
+}
+.details{
+  height:30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+h2,h3,h4{
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+}
+h2{
+  font-size: 20px;
+}
+h4{
+  font-size: 15px;
+}
+table{
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  tr{
+    border: 1px solid #c1c1c1;
+    th{
+      width: 20%;
+      background: #f1f1f1;
+      text-align: center;
+      padding: 0;
+    }
+    th{
+      height: 35px;
+      line-height: 35px;
+      text-align: left;
+      border-right: 1px solid #c1c1c1;
+      padding-left: 10px;
+    }
+    td{
+      height: 35px;
+      line-height: 35px;
+      text-align: left;
+      border-right: 1px solid #c1c1c1;
+      padding-left: 10px;
+    }
+  }
+}
+.parameter {
+  width: 100%;
+  tr {
+    border: 1px solid #c1c1c1;
+    th {
+      width: 20%;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      border-right: 1px solid #c1c1c1;
+    }
+    th:nth-child(2) {
+      width: 10%;
+    }
+    th:last-child {
+      width: 50%;
+    }
+  }
+}
+pre{
+  margin-bottom: 10px;
+  display: block;
+  font-size: 13px;
+  line-height: 1.428571429;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+.iframeColor{
+  background-color: white;
+}
+.marginBottom{
+  margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,66 @@
+.mainBoxTitle{
+    font-size: 30px;
+    color: #333;
+    padding-top: 50px;
+    font-weight: 600;
+}
+.DataShow1{
+    .listBox{
+        margin : 50px auto;
+        .lists{
+            width: 200px;
+            text-align: center;
+            margin: 50px 100px;
+            display: inline-block;
+            cursor: pointer;
+            .title{
+                margin-top: 30px;
+                color: #333;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .contents{
+                margin-top: 20px;
+                color: #666666;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+
+}
+.DataShow2{
+    .listBox{
+        .lists{
+            width: 100%;
+            margin-top: 30px;
+            .icons{
+                width: 30px;
+                height: 30px;
+            }
+            .title{
+                width: 120px;
+                color: #333;
+                font-size: 16px;
+                font-weight: 600;
+                margin-left: 20px;
+            }
+            .contents{
+                color: #666666;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+
+}
+
+.DataShow3{
+    margin-top: 30px;
+    .hrefs{
+        font-size: 14px;
+        color: #28cfbd;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}

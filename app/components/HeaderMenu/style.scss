@@ -1,0 +1,109 @@
+//@import '../../../assets/scss/_color.scss';
+//@import '../../../assets/scss/fonts.scss';
+.footer{
+  width: 100%;
+  background-color: #0a0016;
+}
+.headerBg{
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+  z-index: 9999;
+  color: #fff;
+  height: 60px;
+  background: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.headerBgS{
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  height: 60px;
+  background: #0a0016;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.leftAreaHome{
+  width: 18.3%;
+  cursor: pointer;
+}
+.lefIconHome{
+  width: 50px;
+  height: 45px;
+  background: url("../../../assets/images/kfpt_logo.png") no-repeat;
+}
+.logoName{
+  font-size: 16px;
+  color: #fff;
+}
+.menu{
+  width: 65%;
+  height: 45px;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+}
+.menuItem{
+  margin-right: 50px;
+  cursor: pointer;
+  transition: color .5s ease;
+}
+.menuItemS{
+  margin-right: 50px;
+  cursor: pointer;
+  color: #28cf9e;
+  transition: color .5s ease;
+}
+.menuItem:hover{
+
+  color: #28cf9e;
+}
+.menuRight{
+  width: 16.7%;
+  height: 60px;
+  font-size: 13px;
+}
+.menuItemL{
+  width: 37.5%;
+  transition: color .5s ease;
+  cursor: pointer;
+}
+.menuItemL:hover{
+
+  color: #28cf9e;
+}
+.menuItemR{
+  //width: 62.5%;
+  width: 38.5%;
+}
+.login{
+  height: 60px;
+  background: #28cf9e;
+}
+.loginN{
+  height: 60px;
+}
+
+.loginL{
+  width: 49%;
+  height: 33px;
+  border-right: 1px solid #fff;
+  text-align: center;
+  line-height: 33px;
+  cursor: pointer;
+}
+.loginR{
+  //width: 49%;
+  width: 100%;
+  text-align: center;
+  line-height: 33px;
+  cursor: pointer;
+}
